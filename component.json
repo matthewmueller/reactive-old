@@ -1,0 +1,27 @@
+{
+  "name": "reactive",
+  "repo": "component/reactive",
+  "description": "Reactive template engine",
+  "version": "0.4.0",
+  "keywords": [
+    "reactive",
+    "template",
+    "engine",
+    "binding",
+    "bindings"
+  ],
+  "dependencies": {
+    "component/format-parser": "*",
+    "visionmedia/debug": "*",
+    "component/event": "*",
+    "component/classes": "*"
+  },
+  "development": {
+    "component/assert": "*",
+    "component/domify": "*",
+    "component/emitter": "*"
+  },
+  "scripts": [
+    "index.js"
+  ]
+}
